@@ -55,7 +55,7 @@ const endGame = (draw) => {
     if (draw) {
         resultMessage.innerText = 'Draw!';
     } else {
-        resultMessage.innerText = `${circleTurn ? "O's" : "X's"} Wins!`;
+        resultMessage.innerText = `${circleTurn ? "O" : "X"} Wins!`;
     }
 };
 
